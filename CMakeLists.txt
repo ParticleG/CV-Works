@@ -8,7 +8,7 @@ if (OpenCV_FOUND)
     message("Found OpenCV. Version: " ${OpenCV_VERSION})
 endif ()
 
-add_executable(CVTest main.cpp)
+add_executable(CVTest main.cpp Work_1.cpp Work_1.h)
 
 target_include_directories(CVTest PRIVATE ${OpenCV_INCLUDE_DIR})
 target_link_libraries(CVTest ${OpenCV_LIBRARIES})
