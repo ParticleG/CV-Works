@@ -1,9 +1,9 @@
 //
-// Created by Particle_G on 2020/9/23.
+// Created by Particle_G on 2020/10/8.
 //
 
-#ifndef CVTEST_WORK_1_H
-#define CVTEST_WORK_1_H
+#ifndef CV_WORKS_WORK_2_H
+#define CV_WORKS_WORK_2_H
 
 #include <opencv2/opencv.hpp>
 #include <iostream>
@@ -11,9 +11,9 @@
 using namespace cv;
 using namespace std;
 
-class Work_1 {
+class Work_2 {
 public:
-    Work_1();
+    Work_2();
 
     void runExercise(unsigned short select);
 
@@ -27,7 +27,9 @@ private:
     void exercise_3();
 
     void exercise_4();
+
+    void exercise_5();
 };
 
 
-#endif //CVTEST_WORK_1_H
+#endif //CV_WORKS_WORK_2_H
