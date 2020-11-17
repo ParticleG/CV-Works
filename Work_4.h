@@ -24,11 +24,9 @@ private:
 
     void exercise_2();
 
-    void exercise_3();
+    static void _open(Mat& src, Mat& dst);
 
-    void exercise_4();
-
-    void exercise_5();
+    static void _close(Mat& src, Mat& dst);
 };
 
 

@@ -4,7 +4,7 @@
 
 #include "Work_5.h"
 Work_5::Work_5() {
-    _defaultImage = imread("C:/Users/Particle_G/Pictures/avatar.jpg");
+    _defaultImage = imread("C:/Users/Parti/Pictures/avatar.jpg");
 }
 
 void Work_5::runExercise(unsigned short select) {
