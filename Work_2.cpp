@@ -26,7 +26,7 @@ void Work_2::runExercise(unsigned short select) {
             exercise_5();
             break;
         default:
-            cout << "Unknown exercise number, could be 1 to 4" << endl;
+            cout << "Unknown exercise number, could be 1 to 5" << endl;
             break;
     }
 }
