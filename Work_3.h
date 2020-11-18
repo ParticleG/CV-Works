@@ -5,26 +5,11 @@
 #ifndef CV_WORKS_WORK_3_H
 #define CV_WORKS_WORK_3_H
 
-#include <opencv2/opencv.hpp>
-#include <iostream>
+#include "Work_baseClass.h"
 
-using namespace cv;
-using namespace std;
-
-class Work_3 {
+class Work_3 : public Work_baseClass {
 public:
     Work_3();
-
-    void runExercise(unsigned short select);
-
-private:
-    Mat _defaultImage;
-
-    static void exercise_1();
-
-    void exercise_2();
-
-    void exercise_3();
 };
 
 

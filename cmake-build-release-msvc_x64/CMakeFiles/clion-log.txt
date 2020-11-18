@@ -1,0 +1,5 @@
+C:\Users\Parti\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake -G "CodeBlocks - NMake Makefiles" C:\Users\Parti\CLionProjects\CV_Works
+Found OpenCV. Version: 4.3.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Parti/CLionProjects/CV_Works/cmake-build-release-msvc_x64

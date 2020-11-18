@@ -3,32 +3,60 @@
 //
 
 #include "Work_6.h"
+
 Work_6::Work_6() {
-    _defaultImage = imread("C:/Users/Particle_G/Pictures/avatar.jpg");
-}
+    addExercise({[](const string &filePath) {
+        Mat sourceImage = imread(filePath);
+        float angle = -10.0, scale = 1.0;
+        Point2f center(sourceImage.cols * 0.5, sourceImage.rows * 0.5);
+        Mat affine_matrix = getRotationMatrix2D(center, angle, scale);
+        Mat dst_mat;
+        warpAffine(sourceImage, dst_mat, affine_matrix, sourceImage.size());
+        imshow("src", sourceImage);
+        imshow("dst", dst_mat);
+        waitKey(0);
+    }, _defaultImageUrl});
 
-void Work_6::runExercise(unsigned short select) {
-    switch (select) {
-        case 1:
-            exercise_1();
-            break;
-        case 2:
-            exercise_2();
-            break;
-        case 3:
-            exercise_3();
-            break;
-        default:
-            cout << "Unknown exercise number, could be 1 to 3" << endl;
-            break;
-    }
-}
+    addExercise({[](const string &filePath) {
+        Mat sourceImage = imread(filePath);
+        Point2f src_pt[] = {
+                Point2f(200, 200),
+                Point2f(250, 200),
+                Point2f(200, 100)
+        };
+        Point2f dst_pt[] = {
+                Point2f(300, 100),
+                Point2f(300, 50),
+                Point2f(200, 100)
+        };
+        Mat affine_matrix = getAffineTransform(src_pt, dst_pt);
+        Mat dst_mat;
+        warpAffine(sourceImage, dst_mat, affine_matrix, sourceImage.size());
+        imshow("src", sourceImage);
+        imshow("dst", dst_mat);
+        waitKey(0);
+    }, _defaultImageUrl});
 
-void Work_6::exercise_1() {
-}
+    addExercise({[](const string &filePath) {
+        Mat sourceImage = imread(filePath);
+        Point2f src_pt[] = {
+                Point2f(150, 150),
+                Point2f(150, 300),
+                Point2f(350, 300),
+                Point2f(350, 150)
+        };
+        Point2f dst_pt[] = {
+                Point2f(200, 150),
+                Point2f(200, 300),
+                Point2f(340, 270),
+                Point2f(340, 180)
+        };
 
-void Work_6::exercise_2() {
-}
-
-void Work_6::exercise_3() {
+        Mat perspectiveMatrix = getPerspectiveTransform(src_pt, dst_pt);
+        Mat dst_mat;
+        warpPerspective(sourceImage, dst_mat, perspectiveMatrix, sourceImage.size());
+        imshow("src", sourceImage);
+        imshow("dst", dst_mat);
+        waitKey(0);
+    }, _defaultImageUrl});
 }
