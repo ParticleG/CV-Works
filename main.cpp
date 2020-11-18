@@ -20,9 +20,9 @@ int main() {
     Work_6 work_6;
     Work_7 work_7;
     unsigned int workNumber, exerciseNumber;
-    cout << "Choose an work number, could be 1 to 7" << endl;
+    cout << "Choose an work number, could be 1 to 7." << endl;
     cin >> workNumber;
-    cout << "Choose an exercise number, could be 1 to 4" << endl;
+    cout << "Choose an exercise number." << endl;
     cin >> exerciseNumber;
     switch (workNumber) {
         case 1:

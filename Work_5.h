@@ -20,11 +20,11 @@ public:
 private:
     Mat _defaultImage;
 
-    void exercise_1();
+    static void exercise_1();
 
-    void exercise_2();
+    static void exercise_2();
 
-    void exercise_3();
+    static void exercise_3();
 
     void exercise_4();
 
