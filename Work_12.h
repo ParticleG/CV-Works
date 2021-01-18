@@ -5,9 +5,11 @@
 #ifndef CV_WORKS_WORK_12_H
 #define CV_WORKS_WORK_12_H
 
+#include "Work_baseClass.h"
 
-class Work_12 {
-
+class Work_12 : public Work_baseClass {
+public:
+    Work_12();
 };
 
 
