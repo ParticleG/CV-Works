@@ -1,3 +1,0 @@
-C:/Users/Parti/CLionProjects/CV_Works/cmake-build-debug-msvc_x64/CMakeFiles/rebuild_cache.dir
-C:/Users/Parti/CLionProjects/CV_Works/cmake-build-debug-msvc_x64/CMakeFiles/CV_Works.dir
-C:/Users/Parti/CLionProjects/CV_Works/cmake-build-debug-msvc_x64/CMakeFiles/edit_cache.dir
