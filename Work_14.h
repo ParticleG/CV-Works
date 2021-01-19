@@ -9,14 +9,7 @@
 
 class Work_14 : public Work_baseClass {
 public:
-    void runExercise(unsigned short select) override;
-
-private:
-    void exercise_1();
-
-    void exercise_2();
-
-    void exercise_3();
+    Work_14();
 };
 
 

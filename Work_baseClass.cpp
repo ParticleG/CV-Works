@@ -5,7 +5,7 @@
 #include "Work_baseClass.h"
 
 Work_baseClass::Work_baseClass(const string &workingDirectory) {
-    _defaultImageUrl = workingDirectory + "default.jpg";
+    _defaultImageUrl = workingDirectory + "default.png";
     _defaultVideoUrl = workingDirectory + "default.mp4";
 }
 

@@ -65,35 +65,22 @@ Work_8::Work_8() {
 
     addExercise({[](const string &filePath) {
         Mat srcMat = imread(filePath), hsv, gray, bin1, bin2, bin, Result;
+        vector<vector<Point>> contours;
+        int minH = 0, maxH = 20, minS = 43, maxS = 255, minV = 55, maxV = 255;
+        Point2f vtx[4];
+
         resize(srcMat, srcMat, Size(400, 400));
         cvtColor(srcMat, hsv, COLOR_BGR2HSV);
-
         srcMat.copyTo(Result);
-
-        int minH = 0;
-        int maxH = 20;
-
-        int minS = 43;
-        int maxS = 255;
-
-        int minV = 55;
-        int maxV = 255;
-
         inRange(hsv, Scalar(minH, minS, minV), Scalar(maxH, maxS, maxV), bin1);
         minH = 160;
         maxH = 180;
         inRange(hsv, Scalar(minH, minS, minV), Scalar(maxH, maxS, maxV), bin2);
-
         bitwise_or(bin1, bin2, bin);
-
-        vector<vector<Point>> contours;
         findContours(bin, contours, RETR_EXTERNAL, CHAIN_APPROX_NONE);
 
-        Point2f vtx[4];
-        for (int i = 0; i < contours.size(); i++) {
-
-
-            RotatedRect rBox = minAreaRect(contours[i]);
+        for (auto &contour : contours) {
+            RotatedRect rBox = minAreaRect(contour);
             rBox.points(vtx);
             float width = rBox.size.width;
             float height = rBox.size.height;

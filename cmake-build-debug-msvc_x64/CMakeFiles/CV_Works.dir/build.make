@@ -80,9 +80,28 @@ CMakeFiles\CV_Works.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CV_Works.dir\main.cpp.s /c C:\Users\Parti\CLionProjects\CV_Works\main.cpp
 <<
 
+CMakeFiles\CV_Works.dir\Work_baseClass.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
+CMakeFiles\CV_Works.dir\Work_baseClass.cpp.obj: ..\Work_baseClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CV_Works.dir/Work_baseClass.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_baseClass.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_baseClass.cpp
+<<
+
+CMakeFiles\CV_Works.dir\Work_baseClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CV_Works.dir/Work_baseClass.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe > CMakeFiles\CV_Works.dir\Work_baseClass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Parti\CLionProjects\CV_Works\Work_baseClass.cpp
+<<
+
+CMakeFiles\CV_Works.dir\Work_baseClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CV_Works.dir/Work_baseClass.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CV_Works.dir\Work_baseClass.cpp.s /c C:\Users\Parti\CLionProjects\CV_Works\Work_baseClass.cpp
+<<
+
 CMakeFiles\CV_Works.dir\Work_1.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_1.cpp.obj: ..\Work_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CV_Works.dir/Work_1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CV_Works.dir/Work_1.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_1.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_1.cpp
 <<
@@ -101,7 +120,7 @@ CMakeFiles\CV_Works.dir\Work_1.cpp.s: cmake_force
 
 CMakeFiles\CV_Works.dir\Work_2.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_2.cpp.obj: ..\Work_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CV_Works.dir/Work_2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CV_Works.dir/Work_2.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_2.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_2.cpp
 <<
@@ -120,7 +139,7 @@ CMakeFiles\CV_Works.dir\Work_2.cpp.s: cmake_force
 
 CMakeFiles\CV_Works.dir\Work_3.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_3.cpp.obj: ..\Work_3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CV_Works.dir/Work_3.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CV_Works.dir/Work_3.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_3.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_3.cpp
 <<
@@ -139,7 +158,7 @@ CMakeFiles\CV_Works.dir\Work_3.cpp.s: cmake_force
 
 CMakeFiles\CV_Works.dir\Work_4.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_4.cpp.obj: ..\Work_4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CV_Works.dir/Work_4.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CV_Works.dir/Work_4.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_4.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_4.cpp
 <<
@@ -158,7 +177,7 @@ CMakeFiles\CV_Works.dir\Work_4.cpp.s: cmake_force
 
 CMakeFiles\CV_Works.dir\Work_5.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_5.cpp.obj: ..\Work_5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CV_Works.dir/Work_5.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CV_Works.dir/Work_5.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_5.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_5.cpp
 <<
@@ -177,7 +196,7 @@ CMakeFiles\CV_Works.dir\Work_5.cpp.s: cmake_force
 
 CMakeFiles\CV_Works.dir\Work_6.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_6.cpp.obj: ..\Work_6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CV_Works.dir/Work_6.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CV_Works.dir/Work_6.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_6.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_6.cpp
 <<
@@ -196,7 +215,7 @@ CMakeFiles\CV_Works.dir\Work_6.cpp.s: cmake_force
 
 CMakeFiles\CV_Works.dir\Work_7.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_7.cpp.obj: ..\Work_7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CV_Works.dir/Work_7.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CV_Works.dir/Work_7.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_7.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_7.cpp
 <<
@@ -213,66 +232,9 @@ CMakeFiles\CV_Works.dir\Work_7.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CV_Works.dir\Work_7.cpp.s /c C:\Users\Parti\CLionProjects\CV_Works\Work_7.cpp
 <<
 
-CMakeFiles\CV_Works.dir\Work_14.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
-CMakeFiles\CV_Works.dir\Work_14.cpp.obj: ..\Work_14.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CV_Works.dir/Work_14.cpp.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_14.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_14.cpp
-<<
-
-CMakeFiles\CV_Works.dir\Work_14.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CV_Works.dir/Work_14.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe > CMakeFiles\CV_Works.dir\Work_14.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Parti\CLionProjects\CV_Works\Work_14.cpp
-<<
-
-CMakeFiles\CV_Works.dir\Work_14.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CV_Works.dir/Work_14.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CV_Works.dir\Work_14.cpp.s /c C:\Users\Parti\CLionProjects\CV_Works\Work_14.cpp
-<<
-
-CMakeFiles\CV_Works.dir\Work_baseClass.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
-CMakeFiles\CV_Works.dir\Work_baseClass.cpp.obj: ..\Work_baseClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CV_Works.dir/Work_baseClass.cpp.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_baseClass.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_baseClass.cpp
-<<
-
-CMakeFiles\CV_Works.dir\Work_baseClass.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CV_Works.dir/Work_baseClass.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe > CMakeFiles\CV_Works.dir\Work_baseClass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Parti\CLionProjects\CV_Works\Work_baseClass.cpp
-<<
-
-CMakeFiles\CV_Works.dir\Work_baseClass.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CV_Works.dir/Work_baseClass.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CV_Works.dir\Work_baseClass.cpp.s /c C:\Users\Parti\CLionProjects\CV_Works\Work_baseClass.cpp
-<<
-
-CMakeFiles\CV_Works.dir\Work_15.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
-CMakeFiles\CV_Works.dir\Work_15.cpp.obj: ..\Work_15.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CV_Works.dir/Work_15.cpp.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_15.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_15.cpp
-<<
-
-CMakeFiles\CV_Works.dir\Work_15.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CV_Works.dir/Work_15.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe > CMakeFiles\CV_Works.dir\Work_15.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Parti\CLionProjects\CV_Works\Work_15.cpp
-<<
-
-CMakeFiles\CV_Works.dir\Work_15.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CV_Works.dir/Work_15.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CV_Works.dir\Work_15.cpp.s /c C:\Users\Parti\CLionProjects\CV_Works\Work_15.cpp
-<<
-
 CMakeFiles\CV_Works.dir\Work_8.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_8.cpp.obj: ..\Work_8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CV_Works.dir/Work_8.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CV_Works.dir/Work_8.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_8.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_8.cpp
 <<
@@ -291,7 +253,7 @@ CMakeFiles\CV_Works.dir\Work_8.cpp.s: cmake_force
 
 CMakeFiles\CV_Works.dir\Work_9.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_9.cpp.obj: ..\Work_9.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CV_Works.dir/Work_9.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CV_Works.dir/Work_9.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_9.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_9.cpp
 <<
@@ -310,7 +272,7 @@ CMakeFiles\CV_Works.dir\Work_9.cpp.s: cmake_force
 
 CMakeFiles\CV_Works.dir\Work_10.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_10.cpp.obj: ..\Work_10.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CV_Works.dir/Work_10.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CV_Works.dir/Work_10.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_10.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_10.cpp
 <<
@@ -329,7 +291,7 @@ CMakeFiles\CV_Works.dir\Work_10.cpp.s: cmake_force
 
 CMakeFiles\CV_Works.dir\Work_11.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_11.cpp.obj: ..\Work_11.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CV_Works.dir/Work_11.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CV_Works.dir/Work_11.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_11.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_11.cpp
 <<
@@ -348,7 +310,7 @@ CMakeFiles\CV_Works.dir\Work_11.cpp.s: cmake_force
 
 CMakeFiles\CV_Works.dir\Work_12.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_12.cpp.obj: ..\Work_12.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CV_Works.dir/Work_12.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CV_Works.dir/Work_12.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_12.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_12.cpp
 <<
@@ -367,7 +329,7 @@ CMakeFiles\CV_Works.dir\Work_12.cpp.s: cmake_force
 
 CMakeFiles\CV_Works.dir\Work_13.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
 CMakeFiles\CV_Works.dir\Work_13.cpp.obj: ..\Work_13.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CV_Works.dir/Work_13.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CV_Works.dir/Work_13.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_13.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_13.cpp
 <<
@@ -384,9 +346,48 @@ CMakeFiles\CV_Works.dir\Work_13.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CV_Works.dir\Work_13.cpp.s /c C:\Users\Parti\CLionProjects\CV_Works\Work_13.cpp
 <<
 
+CMakeFiles\CV_Works.dir\Work_14.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
+CMakeFiles\CV_Works.dir\Work_14.cpp.obj: ..\Work_14.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CV_Works.dir/Work_14.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_14.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_14.cpp
+<<
+
+CMakeFiles\CV_Works.dir\Work_14.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CV_Works.dir/Work_14.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe > CMakeFiles\CV_Works.dir\Work_14.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Parti\CLionProjects\CV_Works\Work_14.cpp
+<<
+
+CMakeFiles\CV_Works.dir\Work_14.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CV_Works.dir/Work_14.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CV_Works.dir\Work_14.cpp.s /c C:\Users\Parti\CLionProjects\CV_Works\Work_14.cpp
+<<
+
+CMakeFiles\CV_Works.dir\Work_15.cpp.obj: CMakeFiles\CV_Works.dir\flags.make
+CMakeFiles\CV_Works.dir\Work_15.cpp.obj: ..\Work_15.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Parti\CLionProjects\CV_Works\cmake-build-debug-msvc_x64\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CV_Works.dir/Work_15.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CV_Works.dir\Work_15.cpp.obj /FdCMakeFiles\CV_Works.dir\ /FS -c C:\Users\Parti\CLionProjects\CV_Works\Work_15.cpp
+<<
+
+CMakeFiles\CV_Works.dir\Work_15.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CV_Works.dir/Work_15.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe > CMakeFiles\CV_Works.dir\Work_15.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Parti\CLionProjects\CV_Works\Work_15.cpp
+<<
+
+CMakeFiles\CV_Works.dir\Work_15.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CV_Works.dir/Work_15.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CV_Works.dir\Work_15.cpp.s /c C:\Users\Parti\CLionProjects\CV_Works\Work_15.cpp
+<<
+
 # Object files for target CV_Works
 CV_Works_OBJECTS = \
 "CMakeFiles\CV_Works.dir\main.cpp.obj" \
+"CMakeFiles\CV_Works.dir\Work_baseClass.cpp.obj" \
 "CMakeFiles\CV_Works.dir\Work_1.cpp.obj" \
 "CMakeFiles\CV_Works.dir\Work_2.cpp.obj" \
 "CMakeFiles\CV_Works.dir\Work_3.cpp.obj" \
@@ -394,20 +395,20 @@ CV_Works_OBJECTS = \
 "CMakeFiles\CV_Works.dir\Work_5.cpp.obj" \
 "CMakeFiles\CV_Works.dir\Work_6.cpp.obj" \
 "CMakeFiles\CV_Works.dir\Work_7.cpp.obj" \
-"CMakeFiles\CV_Works.dir\Work_14.cpp.obj" \
-"CMakeFiles\CV_Works.dir\Work_baseClass.cpp.obj" \
-"CMakeFiles\CV_Works.dir\Work_15.cpp.obj" \
 "CMakeFiles\CV_Works.dir\Work_8.cpp.obj" \
 "CMakeFiles\CV_Works.dir\Work_9.cpp.obj" \
 "CMakeFiles\CV_Works.dir\Work_10.cpp.obj" \
 "CMakeFiles\CV_Works.dir\Work_11.cpp.obj" \
 "CMakeFiles\CV_Works.dir\Work_12.cpp.obj" \
-"CMakeFiles\CV_Works.dir\Work_13.cpp.obj"
+"CMakeFiles\CV_Works.dir\Work_13.cpp.obj" \
+"CMakeFiles\CV_Works.dir\Work_14.cpp.obj" \
+"CMakeFiles\CV_Works.dir\Work_15.cpp.obj"
 
 # External object files for target CV_Works
 CV_Works_EXTERNAL_OBJECTS =
 
 CV_Works.exe: CMakeFiles\CV_Works.dir\main.cpp.obj
+CV_Works.exe: CMakeFiles\CV_Works.dir\Work_baseClass.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_1.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_2.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_3.cpp.obj
@@ -415,15 +416,14 @@ CV_Works.exe: CMakeFiles\CV_Works.dir\Work_4.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_5.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_6.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_7.cpp.obj
-CV_Works.exe: CMakeFiles\CV_Works.dir\Work_14.cpp.obj
-CV_Works.exe: CMakeFiles\CV_Works.dir\Work_baseClass.cpp.obj
-CV_Works.exe: CMakeFiles\CV_Works.dir\Work_15.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_8.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_9.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_10.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_11.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_12.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\Work_13.cpp.obj
+CV_Works.exe: CMakeFiles\CV_Works.dir\Work_14.cpp.obj
+CV_Works.exe: CMakeFiles\CV_Works.dir\Work_15.cpp.obj
 CV_Works.exe: CMakeFiles\CV_Works.dir\build.make
 CV_Works.exe: C:\dev\vcpkg\installed\x64-windows\debug\lib\opencv_dnnd.lib
 CV_Works.exe: C:\dev\vcpkg\installed\x64-windows\debug\lib\opencv_highguid.lib

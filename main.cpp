@@ -5,6 +5,12 @@
 #include "Work_5.h"
 #include "Work_6.h"
 #include "Work_7.h"
+#include "Work_8.h"
+#include "Work_9.h"
+#include "Work_10.h"
+#include "Work_11.h"
+#include "Work_12.h"
+#include "Work_13.h"
 #include "Work_14.h"
 #include "Work_15.h"
 
@@ -16,6 +22,12 @@ int main() {
     Work_5 work_5;
     Work_6 work_6;
     Work_7 work_7;
+    Work_8 work_8;
+    Work_9 work_9;
+    Work_10 work_10;
+    Work_11 work_11;
+    Work_12 work_12;
+    Work_13 work_13;
     Work_14 work_14;
     Work_15 work_15;
 
@@ -45,6 +57,24 @@ int main() {
             break;
         case 7:
             work_7.runExercise();
+            break;
+        case 8:
+            work_8.runExercise();
+            break;
+        case 9:
+            work_9.runExercise();
+            break;
+        case 10:
+            work_10.runExercise();
+            break;
+        case 11:
+            work_11.runExercise();
+            break;
+        case 12:
+            work_12.runExercise();
+            break;
+        case 13:
+            work_13.runExercise();
             break;
         case 14:
             work_14.runExercise();
