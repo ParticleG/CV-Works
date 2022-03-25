@@ -1,0 +1,13 @@
+{
+    "name": "cv-works",
+    "version-string": "0.0.1",
+    "maintainers": [
+        "Particle_G <particle_g@outlook.com>"
+    ],
+    "description": "A homework project with OpenCV",
+    "homepage": "https://github.com/ParticleG/CV-Works",
+    "license": "MIT",
+    "dependencies": [
+        "opencv"
+    ]
+}
