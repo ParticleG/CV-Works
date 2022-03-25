@@ -30,7 +30,7 @@ target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBRARIES})
 
 aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR} ROOT_SRC)
 
-target_sources(${PROJECT_NAME} PRIVATE ROOT_SRC)
+target_sources(${PROJECT_NAME} PRIVATE ${ROOT_SRC})
 
 target_include_directories(
         ${PROJECT_NAME}
