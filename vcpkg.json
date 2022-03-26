@@ -8,6 +8,11 @@
     "homepage": "https://github.com/ParticleG/CV-Works",
     "license": "MIT",
     "dependencies": [
-        "opencv"
+        {
+            "name": "opencv4",
+            "features": [
+                "contrib"
+            ]
+        }
     ]
 }

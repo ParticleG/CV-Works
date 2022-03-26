@@ -31,11 +31,9 @@ int main() {
     Work_14 work_14;
     Work_15 work_15;
 
-    unsigned int workNumber, exerciseNumber;
-    cout << "Choose an work number, could be 1 to 15." << endl;
+    unsigned int workNumber;
+    cout << "Choose an work number, could be 1 to 15: ";
     cin >> workNumber;
-    cout << "Choose an exercise number." << endl;
-    cin >> exerciseNumber;
     switch (workNumber) {
         case 1:
             work_1.runExercise();
