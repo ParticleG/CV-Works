@@ -1,3 +1,4 @@
+#include <opencv2/core/utils/logger.hpp>
 #include "Work_1.h"
 #include "Work_2.h"
 #include "Work_3.h"

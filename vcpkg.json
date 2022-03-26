@@ -9,10 +9,7 @@
     "license": "MIT",
     "dependencies": [
         {
-            "name": "opencv4",
-            "features": [
-                "contrib"
-            ]
+            "name": "opencv4"
         }
     ]
 }
