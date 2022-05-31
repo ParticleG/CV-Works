@@ -1,4 +1,3 @@
-#include <opencv2/core/utils/logger.hpp>
 #include "Work_1.h"
 #include "Work_2.h"
 #include "Work_3.h"
@@ -15,7 +14,13 @@
 #include "Work_14.h"
 #include "Work_15.h"
 
+#include <opencv2/core/utils/logger.hpp>
+
+using namespace cv;
+
 int main() {
+    utils::logging::setLogLevel(utils::logging::LOG_LEVEL_WARNING);
+
     Work_1 work_1;
     Work_2 work_2;
     Work_3 work_3;
